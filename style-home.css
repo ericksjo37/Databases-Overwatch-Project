@@ -1,0 +1,96 @@
+html, body  {
+	font-family: 'Roboto Condensed', sans-serif;
+	min-height: 100% !important;
+	height: 100%;
+	
+}
+
+.header_bar {
+	width: 100%;
+	background-color: black;
+	vertical-align: middle;
+	padding: 30px 20px;
+}
+
+.nav_bar {
+	width: 12%;
+	min-width: 260px;
+	max-width: 280px;
+	height: 5000px;
+	float: left;
+	padding: 0 20px;
+}
+
+h1 {
+	color: #ffc70e;
+	padding: 0;
+	margin: 0;
+	vertical-align: middle;
+}
+
+h3 {
+	margin-left:30px;
+	padding:0;
+	color: #1a75ff;
+}
+
+.nav_bar ul {
+    list-style-type: none;
+    margin: 30px 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+.main_ul li{
+	padding: 10px 10px;
+}
+
+.intro {
+	margin-top: 40px;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+div {
+	margin: 20px 0;
+}
+
+.active {
+    background-color: #1a75ff;
+    color: white;
+}
+
+table.entity_tbl {
+	margin: 40px 0;
+	border-collapse: collapse;
+}
+
+.entity_tbl, tbody, tr, td, th{
+	font-family: arial;
+	border-style: solid;
+	border-width: thin;
+	/*border-collapse: collapse;*/
+	padding: 4px 8px;
+	text-align: center;
+}
+
+.entity_tbl tbody>tr>th {
+	font-style: italic;
+	font-weight: bold;
+}
+
+.intro {
+	width: 80%;
+}
